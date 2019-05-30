@@ -4,7 +4,7 @@
 
 ```bash
 sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de 
-```bash
+```
 
 ## Soruces
 
