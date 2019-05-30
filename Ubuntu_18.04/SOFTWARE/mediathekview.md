@@ -1,11 +1,10 @@
 # MediathekView
 
-sudo apt remove openjdk* openjfx*
-https://launchpad.net/~webupd8team/+archive/ubuntu/java
-
-
-
 ## Install
+
+* Download `tar.gz` from https://mediathekview.de/download/
+* Move unpacked folder to
+* Install Java8 (see [Java.md](Java.md))
 
 ## Run
 
@@ -13,18 +12,18 @@ https://launchpad.net/~webupd8team/+archive/ubuntu/java
 java -Xms128M -Xmx1G -jar /opt/MediathekView/MediathekView.jar 
 ```
 
-Error:
+## Errors
 
 ```bash
 . Portable Mode: false
 Exception in thread "main" java.lang.NoClassDefFoundError: javafx/concurrent/Task
 ```
 
-## Install Java 8
+* Ensure, you use Java 8!
 
-sudo apt install openjdk-8-jdk openjfx
-/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -Xms128M -Xmx1G -jar MediathekView.jar
-
+```bash
+/opt/java/jre1.8.0_212/bin/java -Xms128M -Xmx1G -jar MediathekView.jar
+```
 
 ## Sources
 
