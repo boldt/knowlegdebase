@@ -1,5 +1,21 @@
 # Gnome
 
+## Minimize window on Click on side bar
+
+```bash
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+```
+
+* https://www.omgubuntu.co.uk/2018/10/things-to-do-after-installing-ubuntu-18-10
+
+## Enable Ctrl + Alt + Backspace
+
+```bash
+sudo dpkg-reconfigure keyboard-configuration
+```
+
+* https://askubuntu.com/questions/367983/how-do-i-enable-ctrl-alt-backspace-to-kill-the-x-server
+
 ## Tweak tool
 
 ```bash

@@ -38,6 +38,16 @@ echo oracle-java10-installer shared/accepted-oracle-license-v1-1 select true | s
 echo oracle-java10-installer shared/accepted-oracle-licence-v1-1 boolean true | sudo /usr/bin/debconf-set-selections
 ```
 
+## JavaFX
+
+* Download Linux SDK from https://gluonhq.com/products/javafx/
+* FXPATH=/opt/javafx/lib/
+
+## JAVA_HOME
+
+* https://linuxize.com/post/install-java-on-ubuntu-18-04/#set-the-java-home-environment-variable
+
+
 # Sources
 
 * https://linuxize.com/post/install-java-on-ubuntu-18-04/
