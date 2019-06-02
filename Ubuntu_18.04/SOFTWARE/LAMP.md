@@ -4,7 +4,7 @@
 
 ```bash
 sudo apt -y install apache2
-```bash
+```
 
 ## Install PHP 7.2
 
