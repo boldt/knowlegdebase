@@ -5,7 +5,7 @@
 Download from Ubuntu 18.10: https://packages.ubuntu.com/disco/pdftk-java
 
 ```bash
-sudo apt install ./pdftk-java_3.0.2-2_all.deb
+sudo apt install ./pdftk-*.deb
 ```
 
 ## Source
